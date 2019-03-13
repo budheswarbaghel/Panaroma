@@ -1,7 +1,7 @@
 # Panaroma
 
-Panaroma is a django based web application to upload and view the articles.
-View the original repository in my gitlab profile -> [Panaroma] (https://gitlab.com/budheswarbaghel/panaroma)
+Panaroma is a django based web application to upload and view the articles.  
+View the original repository in my gitlab profile -> [Panaroma](https://gitlab.com/budheswarbaghel/panaroma)
 ___
 
 ### Preview
