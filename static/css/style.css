@@ -1,0 +1,89 @@
+a.navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.8em;
+}
+
+div.col-md-3 {
+    display: inline-block;
+    float: none;
+}
+
+h1.heading {
+    font-family: 'Satisfy';
+    margin-top: 0.5em;
+}
+
+button {
+    margin-left: 1em;
+    font-family: 'Open Sans';
+}
+
+a:active, a:focus {
+    outline: 0;
+    border: none;
+}
+
+h2 {
+    font-family: 'Ubuntu';
+}
+
+p.description {
+    font-family: 'Satisfy';
+}
+
+div.container {
+    margin: 2em auto;
+}
+
+p.content {
+    margin-top: 2em;
+    font-family: 'Roboto';
+}
+
+em {
+    font-family: 'Open Sans';
+}
+
+div.register-form, div.login-form, div.logout, div.add-article-form {
+    margin: 2em 30em;
+}
+
+div.alert {
+    font-family: 'Ubuntu';
+}
+
+.card {
+    margin: 0.5em;
+}
+
+legend {
+    font-family: 'Satisfy';
+    font-size: 2em;
+}
+
+.card-title {
+    font-family: 'Ubuntu';
+}
+
+.card-text {
+    font-family: 'Lato';
+}
+
+b {
+    font-style: normal;
+    font-family: 'Ubuntu';
+}
+
+.time {
+    font-family: 'Lato';
+}
+
+.bookmark {
+    float: right;
+    font-family: 'Roboto';
+}
+
+h3 {
+    font-size: 0.5em;
+    font-family: 'Open Sans';
+}

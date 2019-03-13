@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+
+{% block page %}
+
+<div class="container">
+
+    <h2> {{ article.title }} </h2>
+    <b> {{ article.author }} </b> <br/>
+
+    <em> {{ article.created_at }} </em><br/>
+
+    <p class="description"> {{ article.description }} </p>
+
+    {% if article.author == user %}
+
+        <div>
+            <a href = "{% url 'update' article.id %}" class="btn btn-secondary">Update</a>
+            <a href = "{% url 'delete' article.id %}" class="btn btn-danger">Delete</a>
+        </div><br/>
+
+    {% endif %}
+
+    <img src = "{{ article.image.url }}" height="300" width="450">
+
+    <p class="content"> {{ article.content }} </p>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends 'layout.html' %}
+
+{% block page %}
+
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="heading"> Your Articles </h1>
+            <hr>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid padding">
+<div class="row padding">
+
+    {% for article in articles %} 
+
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="d-inline-block card">
+
+            <img class="card-img-top" src="{{ article.image.url }}">
+
+            <div class="card-body">
+                <a href="{% url 'detail' article.id %}" style="text-decoration: none;">
+                    <h4 class="card-title">{{ article.title }}</h4>
+                </a>
+                <p class="card-text">{{ article.description }}</p>
+                <b> {{ article.author }} </b>
+                <br/>
+                <span class="time"> {{ article.created_at }} </span>
+            </div>
+
+        </div>
+    </div>
+
+    {% endfor %}
+</div>
+</div>
+
+{% endblock %}
